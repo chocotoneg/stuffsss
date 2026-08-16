@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:froslass",
+  "baseScale": 0.75,
+  "hitbox": {
+	  "width": 1.0,
+	  "height": 2.0,
+	  "fixed": false
+  }
+}

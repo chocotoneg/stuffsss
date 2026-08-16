@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:munna",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:munna",
+      "model": "atm_remodels:munna.geo",
+      "texture": "atm_remodels:textures/pokemon/0517_munna/munna.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0517_munna/munna_shiny.png"
+    }
+  ]
+}

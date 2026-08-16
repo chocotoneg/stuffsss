@@ -1,0 +1,17 @@
+{
+"target":"cobblemon:azumarill",
+  "behaviour": {	
+        "moving":{
+		  "swim": {
+			  "canBreatheUnderwater":true,
+			  "swimSpeed":"0.2"
+			  },
+		  "resting":{
+			  "canSleep":true
+			  },
+          "walk": {
+            "walkSpeed": 0.265
+          }
+        }
+      }
+}

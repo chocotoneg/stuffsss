@@ -1,0 +1,17 @@
+{
+"target":"cobblemon:marill",
+  "behaviour": {	
+        "moving":{
+		 "swim":{
+			"swimSpeed":"0.215",
+		    "canWalkOnWater":true
+			},
+		 "resting":{
+			"canSleep":true
+		 },
+          "walk": {
+            "walkSpeed": 0.2025
+          }
+        }
+      }
+}

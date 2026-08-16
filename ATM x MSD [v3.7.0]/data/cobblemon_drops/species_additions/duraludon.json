@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:duraludon",
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:metal_alloy",
+        "percentage": 75.0
+      }
+    ]
+  }
+}

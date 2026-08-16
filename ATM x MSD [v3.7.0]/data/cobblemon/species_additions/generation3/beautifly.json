@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:beautifly",
+  "implemented": true,
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 0.65,
+    "height": 1.65,
+    "fixed": false
+  }
+}

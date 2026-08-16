@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:eevee",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.365
+          }
+        }
+      }
+}

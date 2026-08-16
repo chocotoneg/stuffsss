@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:delcatty",   
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  }
+}

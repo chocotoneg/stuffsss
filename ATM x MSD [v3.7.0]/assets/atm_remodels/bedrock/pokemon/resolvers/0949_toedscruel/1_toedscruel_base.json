@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:toedscruel",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:toedscruel",
+      "model": "atm_remodels:toedscruel.geo",
+      "texture": "atm_remodels:textures/pokemon/0949_toedscruel/toedscruel.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0949_toedscruel/toedscruel_shiny.png"
+    }
+  ]
+}

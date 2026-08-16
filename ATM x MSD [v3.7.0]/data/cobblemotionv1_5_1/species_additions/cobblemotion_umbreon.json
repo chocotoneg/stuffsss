@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:umbreon",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.21
+          }
+        }
+      }
+}

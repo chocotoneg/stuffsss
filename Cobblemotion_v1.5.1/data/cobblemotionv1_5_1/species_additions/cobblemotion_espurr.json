@@ -1,0 +1,11 @@
+{
+"target":"cobblemon:espurr",
+"shoulderMountable": true,
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.125
+          }
+        }
+      }
+    }

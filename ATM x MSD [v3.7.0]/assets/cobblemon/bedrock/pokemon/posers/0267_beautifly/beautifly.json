@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.24,
+  "portraitTranslation": [-0.06, 0.57, 0],
+  "profileScale": 0.66,
+  "profileTranslation": [0.0, 0.76, 0.0],
+  "animations": {},
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('beautifly', 'ground_idle')",
+        "q.bedrock('beautifly', 'fly_overlay')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "q.bedrock('beautifly', 'ground_walk')",
+        "q.bedrock('beautifly', 'fly_overlay')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('beautifly', 'sleep')"]
+    }
+  }
+}

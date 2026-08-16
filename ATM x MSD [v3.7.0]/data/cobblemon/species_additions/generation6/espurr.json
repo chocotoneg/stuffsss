@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:espurr",   
+  "shoulderMountable": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.7,
+    "fixed": false
+  }
+}

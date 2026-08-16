@@ -1,0 +1,52 @@
+{
+    "head": "head",
+    "portraitScale": 1.8,
+    "portraitTranslation": [ -0.2, 0.7, 0 ],
+    "profileScale": 0.6,
+    "profileTranslation": [ 0, 0.8, 0 ],
+    "animations": {
+      "faint": "q.bedrock_primary('meowstic_f_atm', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('meowstic_f_atm', 'cry')",
+      "recoil": "q.bedrock_stateful('meowstic_f_atm', 'recoil')",
+      "physical": "q.bedrock_primary('meowstic_f_atm', 'physical', q.curve('symmetrical_wide'))",
+      "special": "q.bedrock_primary('meowstic_f_atm', 'special', q.curve('symmetrical_wide'))",
+      "status": "q.bedrock_primary('meowstic_f_atm', 'status', q.curve('symmetrical_wide'))"
+    },  
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('meowstic_f_atm', 'battle_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('meowstic_f_atm', 'blink')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "look",
+          "bedrock(meowstic_f_atm, ground_idle)"
+        ],
+        "quirks": ["q.bedrock_quirk('meowstic_f_atm', 'blink')"]
+      },
+      "walking": {
+        "poseTypes": [ "WALK" ],
+        "animations": [ "bedrock(meowstic_f_atm, ground_walk)" ],
+        "quirks": ["q.bedrock_quirk('meowstic_f_atm', 'blink')"]
+      },
+    
+      "sleeping": {
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "bedrock(meowstic_f_atm, sleep)"
+        ]
+      }
+    }
+  }
+  

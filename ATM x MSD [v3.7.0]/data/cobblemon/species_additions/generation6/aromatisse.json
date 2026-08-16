@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:aromatisse",
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.75,
+    "fixed": false
+  }
+}

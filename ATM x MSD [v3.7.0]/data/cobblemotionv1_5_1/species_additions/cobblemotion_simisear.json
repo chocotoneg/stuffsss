@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:simisear",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.215
+          }
+        }
+      }
+}

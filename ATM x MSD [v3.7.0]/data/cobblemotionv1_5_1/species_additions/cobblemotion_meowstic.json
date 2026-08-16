@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:meowstic",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.15
+          }
+        }
+      }
+    }

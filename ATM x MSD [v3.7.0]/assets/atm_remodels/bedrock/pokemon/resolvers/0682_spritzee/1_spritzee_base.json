@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:spritzee",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:spritzee",
+      "model": "atm_remodels:spritzee.geo",
+      "texture": "atm_remodels:textures/pokemon/0682_spritzee/spritzee.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0682_spritzee/spritzee_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:drapion",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:drapion",
+      "model": "atm_remodels:drapion.geo",
+      "texture": "atm_remodels:textures/pokemon/0452_drapion/drapion.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0452_drapion/drapion_shiny.png"
+    }
+  ]
+}

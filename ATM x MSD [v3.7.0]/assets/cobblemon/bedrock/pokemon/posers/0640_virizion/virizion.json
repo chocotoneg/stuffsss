@@ -1,0 +1,117 @@
+{
+  "portraitScale": 1.58,
+  "portraitTranslation": [ -0.81, 2.47, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [ 0, 1.01, 0],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.4, -0.1]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('virizion', 'cry')",
+    "recoil": "q.bedrock_stateful('virizion', 'recoil')",
+    "faint": "q.bedrock_stateful('virizion', 'recoil', q.curve('one'))",
+    "status": "q.bedrock_primary('virizion', 'battle_cry', q.curve('one'))",
+    "special": "q.bedrock_primary('virizion', 'special', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('virizion', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('virizion', 'battle_idle')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('virizion', 'hold_item')"
+        }
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('virizion', 'battle_cry', q.curve('one'))"
+      },
+      "quirks": [
+        "q.bedrock_quirk('virizion', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('virizion', 'battle_quirk', 6, 14, 1)"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "transformTicks": 10,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('virizion', 'ground_idle')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('virizion', 'hold_item')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('virizion', 'blink')"]
+    },
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": false,
+      "transformTicks": 5,
+      "transformToTicks": 5,
+      "condition": "q.in_air && q.is_ridden",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('virizion', 'jump')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('virizion', 'hold_item')"
+        }
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('virizion', 'sleep')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('virizion', 'hold_item')"
+        }
+      ]
+    },
+    "walk": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+      "transformTicks": 5,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('virizion', 'ground_walk')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('virizion', 'hold_item')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('virizion', 'blink')"]
+    },
+    "run": {
+      "poseTypes": ["STAND","WALK"],
+      "isBattle": false,
+      "transformTicks": 5,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('virizion', 'ground_run')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('virizion', 'hold_item')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('virizion', 'blink')"]
+    }
+  }
+}

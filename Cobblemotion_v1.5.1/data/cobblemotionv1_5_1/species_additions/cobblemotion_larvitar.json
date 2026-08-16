@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:larvitar",
+  "behaviour": {	
+        "moving":{
+          "walk": {
+            "walkSpeed": 0.215
+          }
+        }
+      }
+}

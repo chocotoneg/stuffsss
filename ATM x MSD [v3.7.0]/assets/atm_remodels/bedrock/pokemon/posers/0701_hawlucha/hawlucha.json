@@ -1,0 +1,61 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ 0, 1.52, 0 ],
+  "profileScale": 0.58,
+  "profileTranslation": [ -0.02, 0.90, 0 ],
+  "animations": {
+    "recoil": "q.bedrock_stateful('hawlucha_atm', 'recoil')"
+  },
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('hawlucha_atm', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hawlucha_atm', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('hawlucha_atm', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hawlucha_atm', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('hawlucha_atm', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('hawlucha_atm', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('hawlucha_atm', 'air_glide')"
+      ],
+      "quirks": ["q.bedrock_quirk('hawlucha_atm', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('hawlucha_atm', 'air_glide')"
+      ],
+      "quirks": ["q.bedrock_quirk('hawlucha_atm', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('hawlucha_atm', 'sleep')"]
+    }
+  }
+}

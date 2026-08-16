@@ -1,0 +1,304 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.beautifly.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [
+						"math.clamp(math.sin(q.anim_time*90*4)*0.5,-0.1,0)+math.clamp(math.sin(q.anim_time*90*4)*0.5,0,0.1)+math.sin(q.anim_time*90*4)*0.5",
+						"8+math.clamp(math.sin(q.anim_time*90*2)*1.2,-1,0)+math.clamp(math.sin(q.anim_time*90*2)*1.2,0,1)+math.sin(q.anim_time*90*2)*1",
+						"math.sin(q.anim_time*90*2)*1"
+					]
+				},
+				"torso": {
+					"rotation": [5, 0, 0]
+				},
+				"head_angle": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"antenna_left": {
+					"rotation": [0, 0, 15]
+				},
+				"antenna_left3": {
+					"rotation": [0, 0, 5]
+				},
+				"antenna_right": {
+					"rotation": [0, 0, -15]
+				},
+				"antenna_right2": {
+					"rotation": [0, 0, 5]
+				},
+				"antenna_right3": {
+					"rotation": [0, 0, 7.5]
+				},
+				"antenna_right4": {
+					"rotation": [0, 0, 7.5]
+				},
+				"tongue2": {
+					"rotation": [40, 0, 0]
+				},
+				"tongue3": {
+					"scale": 0
+				},
+				"leg_left": {
+					"rotation": [0, -22.5, 0]
+				},
+				"legs": {
+					"rotation": [-67.5, 0, 0],
+					"position": [0, 0.5, -1.75]
+				},
+				"wings_right": {
+					"rotation": [-10, 35, -5]
+				},
+				"wing_bottom_string_right2": {
+					"rotation": [0, 22.5, 0]
+				},
+				"wing_bottom_string_right3": {
+					"rotation": [0, 17.5, 0]
+				},
+				"leg_right": {
+					"rotation": [0, 22.5, 0]
+				},
+				"arm_right": {
+					"rotation": [-13.08619, 17.07228, -3.90399]
+				},
+				"arm_left": {
+					"rotation": [-13.08619, -17.07228, 3.90399]
+				},
+				"tongue_curled": {
+					"rotation": [22.5, 0, 0]
+				},
+				"wing_bottom_right": {
+					"rotation": [0, 0, -5]
+				},
+				"wing_bottom_string_right": {
+					"rotation": [0, 0, -35]
+				},
+				"antennae": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"antenna_left4": {
+					"rotation": [0, 0, 15]
+				},
+				"wings_left": {
+					"rotation": [-10, -35, 5]
+				},
+				"wing_bottom_left": {
+					"rotation": [0, 0, 5]
+				},
+				"wing_bottom_string_left": {
+					"rotation": [0, 0, 35]
+				},
+				"wing_bottom_string_left2": {
+					"rotation": [0, -22.5, 0]
+				}
+			}
+		},
+		"animation.beautifly.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [20, 0, 0],
+					"position": [
+						"math.clamp(math.sin(q.anim_time*90*4)*0.5,-0.1,0)+math.clamp(math.sin(q.anim_time*90*4)*0.5,0,0.1)+math.sin(q.anim_time*90*4)*0.5",
+						"8+math.clamp(math.sin(q.anim_time*90*2)*1.2,-1,0)+math.clamp(math.sin(q.anim_time*90*2)*1.2,0,1)+math.sin(q.anim_time*90*2)*1",
+						"math.sin(q.anim_time*90*2)*1"
+					]
+				},
+				"antenna_left": {
+					"rotation": [0, 0, 10]
+				},
+				"antenna_right": {
+					"rotation": [0, 0, -10]
+				},
+				"tongue2": {
+					"rotation": [35, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [0, -15, 0]
+				},
+				"legs": {
+					"rotation": [45, 0, 0],
+					"position": [0, 0.5, 0]
+				},
+				"arm_right": {
+					"rotation": [45, 22.5, 0]
+				},
+				"arm_left": {
+					"rotation": [45, -22.5, 0]
+				},
+				"tongue_curled": {
+					"rotation": [22.5, 0, 0]
+				},
+				"leg_right": {
+					"rotation": [0, 15, 0]
+				},
+				"torso": {
+					"rotation": [5, 0, 0]
+				},
+				"wings_right": {
+					"rotation": [0, 45, 0]
+				},
+				"wing_bottom_right": {
+					"rotation": [0, 0, -5]
+				},
+				"wing_bottom_string_right": {
+					"rotation": [0, 5, -22.5]
+				},
+				"antennae": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"wings_left": {
+					"rotation": [0, -45, 0]
+				},
+				"wing_bottom_left": {
+					"rotation": [0, 0, 5]
+				},
+				"wing_bottom_string_left": {
+					"rotation": [0, -5, 22.5]
+				},
+				"wing_bottom_string_right2": {
+					"rotation": [0, 15, 0]
+				},
+				"wing_bottom_string_right3": {
+					"rotation": [0, 15, 0]
+				},
+				"wing_bottom_string_right4": {
+					"rotation": [0, 15, 0]
+				},
+				"wing_bottom_string_left2": {
+					"rotation": [0, -15, 0]
+				},
+				"wing_bottom_string_left3": {
+					"rotation": [0, -15, 0]
+				},
+				"wing_bottom_string_left4": {
+					"rotation": [0, -15, 0]
+				},
+				"tongue3": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.beautifly.fly_overlay": {
+			"loop": true,
+			"bones": {
+				"wings_right": {
+					"rotation": [0, "math.sin(q.anim_time*90*16)*35", 0]
+				},
+				"wings_left": {
+					"rotation": [0, "-(math.sin(q.anim_time*90*16)*35)", 0]
+				}
+			}
+		},
+		"animation.beautifly.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, 8, 0]
+				},
+				"antenna_left": {
+					"rotation": [0, 0, 10]
+				},
+				"antenna_right": {
+					"rotation": [0, 0, -10]
+				},
+				"tongue2": {
+					"rotation": [50, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [0, -15, 0]
+				},
+				"legs": {
+					"rotation": [45, 0, 0],
+					"position": [0, 0.5, 0]
+				},
+				"arm_right": {
+					"rotation": [45, 22.5, 0]
+				},
+				"arm_left": {
+					"rotation": [45, -22.5, 0]
+				},
+				"tongue_curled": {
+					"rotation": [30, 0, 0]
+				},
+				"leg_right": {
+					"rotation": [0, 15, 0]
+				},
+				"torso": {
+					"rotation": [5, 0, 0]
+				},
+				"wings_right": {
+					"rotation": [-5, -25, -5]
+				},
+				"wing_bottom_right": {
+					"rotation": [0, 0, -5]
+				},
+				"wing_bottom_string_right": {
+					"rotation": [0, 0, -22.5]
+				},
+				"antennae": {
+					"rotation": [22.5, 0, 0]
+				},
+				"wings_left": {
+					"rotation": [-5, 25, 5]
+				},
+				"wing_bottom_left": {
+					"rotation": [0, 0, 5]
+				},
+				"wing_bottom_string_left": {
+					"rotation": [0, 0, 22.5]
+				},
+				"head_angle": {
+					"rotation": [15, 0, 0]
+				},
+				"antenna_left3": {
+					"rotation": [45, 0, 0]
+				},
+				"antenna_left4": {
+					"rotation": [45, 0, 25]
+				},
+				"antenna_right3": {
+					"rotation": [45, 0, 0]
+				},
+				"antenna_right4": {
+					"rotation": [45, 0, -25]
+				},
+				"tongue3": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.beautifly.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eye_left": {
+					"position": {
+						"0.0": [-0.1, 0, 0.1],
+						"0.1667": {"pre": [-0.1, 0, 0.1], "post": [0, 0, 0]}
+					}
+				},
+				"eye_right": {
+					"position": {
+						"0.0": [0.1, 0, 0.1],
+						"0.1667": {"pre": [0.1, 0, 0.1], "post": [0, 0, 0]}
+					}
+				},
+				"eyelid_hurt_right": {
+					"position": {
+						"0.0": [-0.1, 0, -0.1],
+						"0.1667": {"pre": [-0.1, 0, -0.1], "post": [0, 0, 0]}
+					}
+				},
+				"eyelid_hurt_left": {
+					"position": {
+						"0.0": [0.1, 0, -0.1],
+						"0.1667": {"pre": [0.1, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		}
+	}
+}

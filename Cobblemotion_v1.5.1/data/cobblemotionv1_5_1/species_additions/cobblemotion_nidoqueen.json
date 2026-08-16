@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:nidoqueen",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        }
+      }
+    }

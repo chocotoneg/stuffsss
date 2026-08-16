@@ -1,0 +1,14 @@
+{
+"target":"cobblemon:wigglytuff",
+  "behaviour": {	
+        "moving": {
+		  "fly":  {
+		    "canFly":true,
+			"flySpeedHorizontal": 0.2
+		  },
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        }
+      }
+    }

@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:wurmple",
+  "implemented": true,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.75,
+    "fixed": false
+  }
+}

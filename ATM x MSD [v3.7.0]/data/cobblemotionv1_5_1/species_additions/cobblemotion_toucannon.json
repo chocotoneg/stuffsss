@@ -1,0 +1,16 @@
+{
+"target":"cobblemon:toucannon",
+  "behaviour": {	
+        "moving": {
+		  "fly":  {
+			  "canFly":true
+		  },
+		  "swim": {
+			  "avoidsWater":true
+		  },
+          "walk": {
+            "walkSpeed": 0.195
+          }
+        }
+      }
+}

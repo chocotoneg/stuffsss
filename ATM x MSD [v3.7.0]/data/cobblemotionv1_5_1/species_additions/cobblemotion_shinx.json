@@ -1,0 +1,14 @@
+{
+"target":"cobblemon:shinx",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.215
+          }
+        }
+      },
+	  "resting": {
+     "canSleep": true,
+     "willSleepOnBed": true
+   }
+}

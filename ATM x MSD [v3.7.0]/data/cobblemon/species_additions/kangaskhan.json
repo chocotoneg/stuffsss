@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:kangaskhan",
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 1.55,
+    "height": 2.65,
+    "fixed": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:grimmsnarl",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.275
+          }
+        }
+      }
+}

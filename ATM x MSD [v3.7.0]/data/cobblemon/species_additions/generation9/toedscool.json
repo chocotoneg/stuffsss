@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:toedscool",
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.6,
+    "fixed": false
+  }
+}

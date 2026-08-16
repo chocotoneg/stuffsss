@@ -1,0 +1,13 @@
+{
+"target":"cobblemon:luxio",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.235
+          }
+        }
+      },
+	  "resting": {
+     "canSleep": true
+   }
+}

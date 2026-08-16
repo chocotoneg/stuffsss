@@ -1,0 +1,49 @@
+{
+  "portraitScale": 2.21,
+  "portraitTranslation": [-0.6, 0.6, 0.0],
+  "profileScale": 0.9,
+  "profileTranslation": [0.0, 0.4, 0.0],
+  "rootBone": "talonflame",
+  "animations": {
+    "cry": "q.bedrock_stateful('talonflame', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('talonflame', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('talonflame', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('talonflame', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('talonflame', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('talonflame', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('talonflame', 'blink')"]
+    },
+	"hovering": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('talonflame', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('talonflame', 'blink')"]
+    },
+	"flying": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('talonflame', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('talonflame', 'blink')"]
+    }
+  }
+}

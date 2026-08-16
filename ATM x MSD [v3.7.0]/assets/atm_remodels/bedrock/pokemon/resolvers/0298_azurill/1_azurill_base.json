@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:azurill",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:azurill",
+      "model": "atm_remodels:azurill.geo",
+      "texture": "atm_remodels:textures/pokemon/0298_azurill/azurill.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0298_azurill/azurill_shiny.png"
+    }
+  ]
+}

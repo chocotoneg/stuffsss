@@ -1,0 +1,26 @@
+{
+  "target": "cobblemon:bergmite",
+  "evolutions": [
+    {
+      "id": "bergmite_avalugghisui2",
+      "variant": "level_up",
+      "result": "avalugg hisuian",
+      "consumeHeldItem": false,
+      "learnableMoves": ["rockslide"],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:evolution/regional/bergmite_hisuibiome"
+        },
+        {
+          "variant": "biome",
+          "biomeAnticondition": "#cobblemon:evolution/regional/bergmite_kalosbiome"
+        }
+      ]
+    }
+  ]
+}

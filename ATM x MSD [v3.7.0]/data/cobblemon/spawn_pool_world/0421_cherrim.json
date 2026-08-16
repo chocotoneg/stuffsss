@@ -1,0 +1,66 @@
+{
+  "enabled": "true",
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cherrim-1T",
+      "pokemon": "cherrim blossom_form=overcast",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-39",
+      "weight": 0.9,
+      "weightMultiplier": {
+        "multiplier": 0.75,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isRaining": true,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "cherrim-2T",
+      "pokemon": "cherrim blossom_form=sunshine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-39",
+      "weight": 0.9,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isRaining": false,
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    }
+  ]
+}

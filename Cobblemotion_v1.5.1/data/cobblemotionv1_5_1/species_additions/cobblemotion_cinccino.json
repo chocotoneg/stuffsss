@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:cinccino",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        }
+      }
+}

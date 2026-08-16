@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:vigoroth",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.625
+          }
+        }
+      }
+}

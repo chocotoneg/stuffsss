@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:leafeon",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.225
+          }
+        }
+      }
+}

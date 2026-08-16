@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:hawlucha",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.185
+          }
+        }
+      }
+    }

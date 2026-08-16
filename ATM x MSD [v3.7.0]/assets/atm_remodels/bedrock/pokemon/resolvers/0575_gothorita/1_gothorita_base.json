@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:gothorita",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:gothorita",
+      "model": "atm_remodels:gothorita.geo",
+      "texture": "atm_remodels:textures/pokemon/0575_gothorita/gothorita.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0575_gothorita/gothorita_shiny.png"
+    }
+  ]
+}

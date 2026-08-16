@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.24,
+  "portraitTranslation": [-0.12, 0.84, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0.0, 0.73, 0.0],
+  "animations": {},
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('dustox', 'ground_idle')",
+        "q.bedrock('dustox', 'fly_overlay')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "q.bedrock('dustox', 'ground_walk')",
+        "q.bedrock('dustox', 'fly_overlay')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('dustox', 'sleep')"]
+    }
+  }
+}

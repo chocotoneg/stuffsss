@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:gothorita",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.215
+          }
+        }
+      }
+}

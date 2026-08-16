@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:musharna",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:musharna",
+      "model": "atm_remodels:musharna.geo",
+      "texture": "atm_remodels:textures/pokemon/0518_musharna/musharna.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0518_musharna/musharna_shiny.png"
+    }
+  ]
+}

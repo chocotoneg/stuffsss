@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:espurr",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:espurr",
+      "model": "atm_remodels:espurr.geo",
+      "texture": "atm_remodels:textures/pokemon/0677_espurr/espurr.png",
+      "layers": [
+        {
+          "name": "espurr_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "atm_remodels:textures/pokemon/0677_espurr/espurr_glow.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0677_espurr/espurr_shiny.png" 
+    }
+  ]
+}

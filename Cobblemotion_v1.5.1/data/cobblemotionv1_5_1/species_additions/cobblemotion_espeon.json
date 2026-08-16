@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:espeon",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.21
+          }
+        }
+      }
+}

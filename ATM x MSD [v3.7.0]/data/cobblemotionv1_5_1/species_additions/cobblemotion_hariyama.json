@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:hariyama",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2475
+          }
+        }
+      }
+}

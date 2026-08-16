@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:okidogi",
+  "implemented": true,
+  "baseScale": 0.54,
+  "hitbox": {
+    "width": 1.3,
+    "height": 3.2,
+    "fixed": false
+  }
+}

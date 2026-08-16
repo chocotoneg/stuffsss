@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:swadloon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:swadloon",
+      "model": "atm_remodels:swadloon.geo",
+      "texture": "atm_remodels:textures/pokemon/0541_swadloon/swadloon.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0541_swadloon/swadloon_shiny.png"
+    }
+  ]
+}

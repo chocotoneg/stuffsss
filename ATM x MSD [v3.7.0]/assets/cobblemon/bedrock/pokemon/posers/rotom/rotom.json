@@ -1,0 +1,45 @@
+{
+  "portraitScale": 1.72,
+  "portraitTranslation": [0.13, -0.15, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.76, 0],
+  "rootBone": "rotom",
+  "animations": {
+    "cry": "q.bedrock_stateful('rotom', 'cry')",
+	"status": "q.bedrock_primary('rotom', 'battle_cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+	"standing": {
+      "poseTypes": ["STAND", "HOVER", "FLOAT", "PORTRAIT", "PROFILE", "NONE"],
+	  "isBattle": false,
+      "animations": [
+        "q.bedrock('rotom', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('rotom', 'blink')"
+      ]
+    },
+	"battle-standing": {
+      "poseTypes": ["STAND", "HOVER", "FLOAT"],
+	  "isBattle": true,
+      "animations": [
+        "q.bedrock('rotom', 'ground_idle')"
+      ],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('rotom', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+      "quirks": [
+        "q.bedrock_quirk('rotom', 'blink')"
+      ]
+    },
+	"walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": [
+        "q.bedrock('rotom', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('rotom', 'blink')"
+      ]
+    }
+  }
+}

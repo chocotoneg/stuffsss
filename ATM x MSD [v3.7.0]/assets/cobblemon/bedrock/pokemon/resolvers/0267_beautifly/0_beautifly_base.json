@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:beautifly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:beautifly",
+      "model": "cobblemon:beautifly_male.geo",
+      "texture": "cobblemon:textures/pokemon/0267_beautifly/beautifly.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0267_beautifly/beautifly_shiny.png"
+    },
+    {
+      "aspects": ["female"],
+      "model": "cobblemon:beautifly_female.geo",
+      "texture": "cobblemon:textures/pokemon/0267_beautifly/beautifly.png"
+    },
+    {
+      "aspects": ["female", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0267_beautifly/beautifly_shiny.png"
+    }
+  ]
+}

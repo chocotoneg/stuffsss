@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:nidoking",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        }
+      }
+    }

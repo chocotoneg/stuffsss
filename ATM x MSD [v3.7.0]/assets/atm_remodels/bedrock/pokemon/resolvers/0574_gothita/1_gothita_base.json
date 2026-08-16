@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:gothita",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:gothita",
+      "model": "atm_remodels:gothita.geo",
+      "texture": "atm_remodels:textures/pokemon/0574_gothita/gothita.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0574_gothita/gothita_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:makuhita",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.25
+          }
+        }
+      }
+}

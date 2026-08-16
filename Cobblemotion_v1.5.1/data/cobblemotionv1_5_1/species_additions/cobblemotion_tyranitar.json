@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:tyranitar",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.1665
+          }
+        }
+      }
+    }

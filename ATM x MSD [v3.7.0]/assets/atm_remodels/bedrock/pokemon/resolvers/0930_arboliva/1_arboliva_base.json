@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:arboliva",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:arboliva_atm",
+      "model": "atm_remodels:arboliva_atm.geo",
+      "texture": "atm_remodels:textures/pokemon/0930_arboliva/arboliva.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0930_arboliva/arboliva_shiny.png"
+    }
+  ]
+}

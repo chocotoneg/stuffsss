@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:smoliv",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:smoliv_atm",
+      "model": "atm_remodels:smoliv_atm.geo",
+      "texture": "atm_remodels:textures/pokemon/0928_smoliv/smoliv.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0928_smoliv/smoliv_shiny.png"
+    }
+  ]
+}

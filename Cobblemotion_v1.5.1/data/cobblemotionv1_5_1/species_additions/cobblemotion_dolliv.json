@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:dolliv",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        }
+      }
+    }

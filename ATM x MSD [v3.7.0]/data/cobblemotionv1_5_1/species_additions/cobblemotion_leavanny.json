@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:leavanny",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2525
+          }
+        }
+      }
+}

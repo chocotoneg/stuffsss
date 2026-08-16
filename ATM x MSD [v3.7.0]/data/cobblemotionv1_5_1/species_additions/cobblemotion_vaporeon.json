@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:vaporeon",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.21
+          }
+        }
+      }
+}

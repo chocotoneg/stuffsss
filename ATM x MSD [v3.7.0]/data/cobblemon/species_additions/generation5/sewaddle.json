@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:sewaddle",
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.7,
+    "fixed": false
+  }
+}

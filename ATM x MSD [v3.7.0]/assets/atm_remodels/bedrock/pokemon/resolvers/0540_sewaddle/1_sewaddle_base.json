@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:sewaddle",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:sewaddle",
+      "model": "atm_remodels:sewaddle.geo",
+      "texture": "atm_remodels:textures/pokemon/0540_sewaddle/sewaddle.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0540_sewaddle/sewaddle_shiny.png"
+    }
+  ]
+}

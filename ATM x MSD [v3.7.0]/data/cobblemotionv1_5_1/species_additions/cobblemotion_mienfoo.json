@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:mienfoo",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.5
+          }
+        }
+      }
+    }

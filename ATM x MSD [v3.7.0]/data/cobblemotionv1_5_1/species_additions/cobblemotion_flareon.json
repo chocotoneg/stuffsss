@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:flareon",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.21
+          }
+        }
+      }
+}

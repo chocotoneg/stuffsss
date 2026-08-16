@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:toxel",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.155
+          }
+        }
+      }
+}

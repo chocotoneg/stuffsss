@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:pancham",
+  "implemented": true,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.6,
+    "fixed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:skwovet",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:skwovet",
+      "model": "atm_remodels:skwovet.geo",
+      "texture": "atm_remodels:textures/pokemon/0819_skwovet/skwovet.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0819_skwovet/skwovet_shiny.png"
+    }
+  ]
+}

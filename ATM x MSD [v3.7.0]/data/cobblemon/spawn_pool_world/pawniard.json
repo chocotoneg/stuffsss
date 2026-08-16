@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "pawniard-1T",
+        "pokemon": "pawniard",
+        "presets": [
+          "natural"
+        ],
+        "type": "pokemon",
+        "spawnablePositionType": "grounded",
+        "bucket": "uncommon",
+        "level": "10-38",
+        "weight": 4.0,
+        "condition": {
+          "biomes": [
+            "#cobblemon:is_bamboo"
+          ]
+        },
+        "weightMultipliers": [
+          {
+            "multiplier": 3,
+            "condition": {
+                "timeRange": "night"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pawniard-2T",
+        "pokemon": "pawniard",
+        "presets": [
+          "natural"
+        ],
+        "type": "pokemon",
+        "spawnablePositionType": "grounded",
+        "bucket": "uncommon",
+        "level": "10-38",
+        "weight": 4.0,
+        "condition": {
+          "timeRange": "night",
+          "biomes": [
+            "#cobblemon:is_arid"
+          ]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:swampert",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2375
+          }
+        }
+      }
+    }

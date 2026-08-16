@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:gothitelle",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:gothitelle",
+      "model": "atm_remodels:gothitelle.geo",
+      "texture": "atm_remodels:textures/pokemon/0576_gothitelle/gothitelle.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0576_gothitelle/gothitelle_shiny.png"
+    }
+  ]
+}

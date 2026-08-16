@@ -1,0 +1,44 @@
+{
+  "portraitScale": 2.29,
+  "portraitTranslation": [-0.23, 2.66, 0],
+  "profileScale": 0.46,
+  "profileTranslation": [0, 1.04, 0],
+  "rootBone": "lucario",
+  "animations": {
+    "cry": "q.bedrock_stateful('lucario', 'cry')",
+	"status": "q.bedrock_stateful('lucario', 'cry')",
+	"recoil": "q.bedrock_stateful('lucario', 'recoil')",
+	"faint": "q.bedrock_primary('lucario', 'faint', q.curve('one'))",
+	"physical": "q.bedrock_primary('lucario', 'physical', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('lucario', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lucario', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lucario', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lucario', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('lucario', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lucario', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('lucario', 'blink')"]
+    }
+  }
+}

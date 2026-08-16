@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:toedscool",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:toedscool",
+      "model": "atm_remodels:toedscool.geo",
+      "texture": "atm_remodels:textures/pokemon/0948_toedscool/toedscool.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0948_toedscool/toedscool_shiny.png"
+    }
+  ]
+}

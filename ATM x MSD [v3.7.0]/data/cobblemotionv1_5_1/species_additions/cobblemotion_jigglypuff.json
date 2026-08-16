@@ -1,0 +1,13 @@
+{
+"target":"cobblemon:jigglypuff",
+  "behaviour": {	
+        "moving": {
+		  "fly":  {
+		    "canFly":true
+		  },
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        }
+      }
+    }

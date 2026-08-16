@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:sylveon",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.21
+          }
+        }
+      }
+}

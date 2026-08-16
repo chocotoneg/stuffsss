@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:azumarill",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:azumarill",
+      "model": "atm_remodels:azumarill.geo",
+      "texture": "atm_remodels:textures/pokemon/0184_azumarill/azumarill.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0184_azumarill/azumarill_shiny.png"
+    }
+  ]
+}

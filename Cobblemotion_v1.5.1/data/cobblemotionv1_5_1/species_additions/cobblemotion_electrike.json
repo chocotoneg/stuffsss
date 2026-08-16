@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:electrike",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.18
+          }
+        }
+      }
+}

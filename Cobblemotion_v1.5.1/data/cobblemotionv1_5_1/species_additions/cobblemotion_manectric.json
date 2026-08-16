@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:manectric",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.435
+          }
+        }
+      }
+}

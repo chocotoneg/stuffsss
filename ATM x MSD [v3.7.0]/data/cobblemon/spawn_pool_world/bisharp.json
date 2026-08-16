@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bisharp-1T",
+      "pokemon": "bisharp",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "38-65",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ]
+      },
+      "weightMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+              "timeRange": "night"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bisharp-2T",
+      "pokemon": "bisharp",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "38-65",
+      "weight": 5.0,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
+}

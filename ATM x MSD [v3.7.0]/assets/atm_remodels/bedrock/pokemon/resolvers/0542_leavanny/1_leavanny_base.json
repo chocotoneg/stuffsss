@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:leavanny",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:leavanny",
+      "model": "atm_remodels:leavanny.geo",
+      "texture": "atm_remodels:textures/pokemon/0542_leavanny/leavanny.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0542_leavanny/leavanny_shiny.png"
+    }
+  ]
+}

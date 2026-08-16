@@ -1,0 +1,10 @@
+{
+"target":"cobblemon:jangmoo",
+  "behaviour": {	
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.475
+          }
+        }
+      }
+}
